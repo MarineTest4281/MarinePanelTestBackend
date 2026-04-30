@@ -2,7 +2,7 @@
 
 import User from "../models/User.js";
 
-const BASE_DOMAIN = "marinepanel.online";
+const BASE_DOMAIN = "marinepanel.site";
 
 export const detectChildPanelDomain = async (req, res, next) => {
   try {
@@ -35,7 +35,7 @@ export const detectChildPanelDomain = async (req, res, next) => {
     /*
     -----------------------------
     SUBDOMAIN CHECK
-    e.g. cp1.marinepanel.online
+    e.g. cp1.marinepanel.site
     -----------------------------
     */
     const parts = host.split(".");
