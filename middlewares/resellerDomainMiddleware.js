@@ -2,7 +2,7 @@
 
 import User from "../models/User.js";
 
-const BASE_DOMAIN = "marinepanel.online";
+const BASE_DOMAIN = "marinepanel.site";
 
 export const detectResellerDomain = async (req, res, next) => {
   try {
