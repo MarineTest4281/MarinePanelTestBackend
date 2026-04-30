@@ -34,7 +34,7 @@ export const io = new Server(server, {
       if (!origin) return callback(null, true);
 
       if (
-        origin.includes("marinepanel.online") ||
+        origin.includes("marine-panel-test-frontend.vercel.app") ||
         origin.includes(".vercel.app")
       ) {
         return callback(null, true);
