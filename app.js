@@ -77,9 +77,7 @@ app.use(
       if (!origin) return callback(null, true);
 
       if (
-        origin.endsWith(".marinepanel.online") ||
-        origin === "https://marinepanel.online" ||
-        origin === "http://marinepanel.online" ||
+        origin.endsWith("marine-panel-test-frontend.vercel.app") 
         /\.vercel\.app$/.test(origin)
       ) {
         return callback(null, true);
